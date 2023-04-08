@@ -1,0 +1,56 @@
+.all{
+    font-family: "Poppins" ;
+}
+
+.img-background{
+    position: fixed;
+}
+
+.conteudo{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cartao{
+    display: grid;
+    width: 50%;
+    justify-content: end;
+}
+
+.cartao-tras{
+    margin-top: 45px;
+    margin-left: 80px;
+}
+
+.cx-formulario{
+    width: 50%;
+}
+
+.item-principal{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.cx-principal{
+    border-radius: 8px;
+    padding: 8px;
+    width: 80%;
+    border-color: #7a02ae;
+    margin-bottom: 10px;
+}
+
+.item-secundario{
+    color: red;
+    font-size: 11px;
+}
+
+.cx-secundaria{
+    padding: 8px;
+    width: 30px;
+}

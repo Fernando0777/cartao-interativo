@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/CSS/reset.css">
+  <link rel="stylesheet" href="./assets/CSS/style.css">
   
-  <title>Frontend Mentor | Interactive card details form</title>
+  <title>Cartão Virtual</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -14,19 +17,60 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
+
+
 <body>
+  <main class="all">
+    <div class="container">
+      <img class="img-background" src="./assets/images/bg-main-desktop.png">
+      <div class="conteudo">
+        <div class="cartao">
+          <img src="./assets/images/bg-card-front.png" class="cartao-frente" alt="cartão bancário">
+          <img src="./assets/images/bg-card-back.png" class="cartao-tras" alt="cartão bancário">
+        </div>
+
+        <div class="formulario">
+          <form class="cx-formulario">
+            <div class="nome-cartao">
+              <p class="item-principal">cardholder name</p>
+              <input type="text" name="" id="" class="cx-principal">
+              <p class="item-principal">card number</p>
+              <input type="text" name="" id="" class="cx-principal">
+              <p class="item-secundario">Wrong format, numbers only</p>
+            </div>
+
+            <div class="dados">
+              <p class="item-principal">exp. date (mm/yy)</p>
+              <input type="text" name="" id="" class="cx-secundaria">
+              <input type="text" name="" id="" class="cx-secundaria">
+              <p class="item-secundario">cant't be blank</p>
+              <p class="item-principal">cvc</p>
+              <input type="text" name="" id="" class="cx-codigo">
+              <p class="item-secundario">can"t be blank</p>
+            </div>
+          
+         
+            <div class="enviar">
+              <input type="submit" name="" id="" class="botao-enviar">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </main>
 
   0000 0000 0000 0000
-  Jane Appleseed
-  00/00
-
+Jane Appleseed
+          00/00
   000
 
   Cardholder Name
   e.g. Jane Appleseed
 
   Card Number
-  e.g. 1234 5678 9123 000
+  e.g. 1234 5678 9123 0000
 
   Exp. Date (MM/YY)
   MM
