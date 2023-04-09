@@ -5,11 +5,17 @@
     }
 
     .formulario{
-        width: 35%;
+        width: 75%;
     }
 
     .cartao{
         width: 60%;
+    }
+}
+
+@media(max-width: 985px){
+    .cx-formulario{
+        width: 100%;
     }
 }
 
@@ -22,7 +28,7 @@
         display: block;
         position: fixed;
         width: 100%;
-        height: 55%;
+        max-height: 31%;
     }
 
     .conteudo{
@@ -30,10 +36,140 @@
     }
 
     .cartao{
+        display: none;
+    }
+
+    .cartao-mobile{
         width: 100%;
+        display: grid;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .cartao-frente-mobile{
+        margin-top: -100px;
+        margin-left: -90px;
+    }
+
+    .dados-cartao-mobile{
+        margin-top: -115px;
+        margin-left: -36px;
+        color: #fff;
+        }
+
+    .numero-cartao-mobile{
+        font-size: 25px;
+    }
+
+    .dados2-cartao-mobile{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        margin-left: -153px;
+    }
+
+    .cvc-cartao-mobile{
+        margin-top: -133px;
+        font-size: 20px;
+        color: #fff;
+        margin-left: 350px;
     }
 
     .formulario{
         width: 100%;
+    }
+}
+
+@media(max-width:624px){
+    .img-background-cel{
+        max-height: 25%;
+    }
+
+    .cartao-mobile{
+        justify-content: end;
+    }
+
+    .cartao-mobile{
+        max-width: 100%;
+    }
+
+    .cartao-frente-mobile, .cartao-tras-mobile{
+        width: 70%;
+    }
+
+    .dados-cartao-mobile{
+        margin-top: -90px;
+        margin-left: -69px;
+    }
+
+    .numero-cartao-mobile{
+        font-size: 20px;
+    }
+
+    .dados2-cartao-mobile{
+        justify-content: space-evenly;
+        margin-left: -77px;
+    }
+
+    .validade-cartao-mobile{
+        margin-right: 168px;
+    }
+
+    .cvc-cartao-mobile{
+        margin-top: -97px;
+        margin-left: 233px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 535px){
+    .cartao-mobile{
+        margin-left: 76px;
+    }
+
+    .img-background-cel{
+        max-height: 23%;
+    }
+
+    .cx-formulario{
+        width: 100%;
+    }
+}
+
+@media(max-width: 460px){
+    .cartao-mobile{
+        margin-left: 160px;
+    }
+
+    .img-background-cel{
+        max-height: 17%;
+    }
+}
+
+@media(max-width: 376px){
+    .dados-cartao-mobile{
+        margin-top: -75px;
+    }
+    .numero-cartao-mobile{
+        font-size: 20px;
+    }
+
+    .dados2-cartao-mobile{
+        margin-left: -49px;
+    }
+
+    .validade-cartao-mobile{
+        margin-right: 168px;
+    }
+
+    .cvc-cartao-mobile{
+        margin-top: -83px;
+        margin-left: 193px;
+    }
+}
+
+@media(max-width: 281px){
+    .img-background-cel {
+        max-height: 13%;
     }
 }
