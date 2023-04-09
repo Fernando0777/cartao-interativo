@@ -1,0 +1,39 @@
+@media(max-width: 1065px){
+    .img-background{
+        height: 100%;
+        width: 40%;
+    }
+
+    .formulario{
+        width: 35%;
+    }
+
+    .cartao{
+        width: 60%;
+    }
+}
+
+@media(max-width:870px){
+    .img-background{
+        display: none;
+    }
+
+    .img-background-cel{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 55%;
+    }
+
+    .conteudo{
+        display: block;
+    }
+
+    .cartao{
+        width: 100%;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+}
